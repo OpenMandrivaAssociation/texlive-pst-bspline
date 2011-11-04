@@ -50,6 +50,7 @@ output is created using PStricks.
 %doc %{_texmfdistdir}/doc/generic/pst-bspline/README
 %doc %{_texmfdistdir}/doc/generic/pst-bspline/pst-bspline-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-bspline/pst-bspline-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +61,5 @@ output is created using PStricks.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
