@@ -1,16 +1,16 @@
-# revision 23632
+# revision 25582
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-bspline
-# catalog-date 2011-08-20 10:41:50 +0200
-# catalog-license other-free
-# catalog-version 1.44
+# catalog-date 2012-03-07 20:35:45 +0100
+# catalog-license lppl1.3
+# catalog-version 1.61
 Name:		texlive-pst-bspline
-Version:	1.44
-Release:	2
+Version:	1.61
+Release:	1
 Summary:	Draw cubic Bspline curves and interpolations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-bspline
-License:	OTHER-FREE
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.doc.tar.xz
 BuildArch:	noarch
