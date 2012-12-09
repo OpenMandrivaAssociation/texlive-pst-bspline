@@ -51,3 +51,21 @@ output is created using PStricks.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.61-1
++ Revision: 787733
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.44-2
++ Revision: 755224
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.44-1
++ Revision: 719337
+- texlive-pst-bspline
+- texlive-pst-bspline
+- texlive-pst-bspline
+- texlive-pst-bspline
+
