@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.61
 Name:		texlive-pst-bspline
-Version:	1.61
-Release:	9
+Version:	1.62
+Release:	1
 Summary:	Draw cubic Bspline curves and interpolations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-bspline
