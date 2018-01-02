@@ -1,9 +1,3 @@
-# revision 25582
-# category Package
-# catalog-ctan /graphics/pstricks/contrib/pst-bspline
-# catalog-date 2012-03-07 20:35:45 +0100
-# catalog-license lppl1.3
-# catalog-version 1.61
 Name:		texlive-pst-bspline
 Version:	1.62
 Release:	1
@@ -35,12 +29,10 @@ output is created using PStricks.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/dvips/pst-bspline/pst-bspline.pro
-%{_texmfdistdir}/tex/generic/pst-bspline/pst-bspline.tex
-%{_texmfdistdir}/tex/latex/pst-bspline/pst-bspline.sty
-%doc %{_texmfdistdir}/doc/generic/pst-bspline/README
-%doc %{_texmfdistdir}/doc/generic/pst-bspline/pst-bspline-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-bspline/pst-bspline-doc.tex
+%{_texmfdistdir}/dvips/pst-bspline
+%{_texmfdistdir}/tex/generic/pst-bspline
+%{_texmfdistdir}/tex/latex/pst-bspline
+%doc %{_texmfdistdir}/doc/generic/pst-bspline
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,21 +43,3 @@ output is created using PStricks.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.61-1
-+ Revision: 787733
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.44-2
-+ Revision: 755224
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.44-1
-+ Revision: 719337
-- texlive-pst-bspline
-- texlive-pst-bspline
-- texlive-pst-bspline
-- texlive-pst-bspline
-
