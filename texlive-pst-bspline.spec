@@ -1,6 +1,6 @@
 Name:		texlive-pst-bspline
 Version:	1.62
-Release:	1
+Release:	2
 Summary:	Draw cubic Bspline curves and interpolations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-bspline
