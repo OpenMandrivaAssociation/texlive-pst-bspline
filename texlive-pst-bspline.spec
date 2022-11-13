@@ -1,12 +1,12 @@
 Name:		texlive-pst-bspline
-Version:	1.62
-Release:	2
+Version:	40685
+Release:	1
 Summary:	Draw cubic Bspline curves and interpolations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-bspline
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,12 +20,12 @@ Bspline curve interpolating a sequence of points. Graphical
 output is created using PStricks.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,7 @@ output is created using PStricks.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
