@@ -3,7 +3,7 @@ Version:	40685
 Release:	2
 Summary:	Draw cubic Bspline curves and interpolations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-bspline
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-bspline
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-bspline.doc.r%{version}.tar.xz
